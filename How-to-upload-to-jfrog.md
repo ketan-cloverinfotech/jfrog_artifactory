@@ -155,3 +155,118 @@ my pom.xml as follow
 </project>
 
 ```
+
+# step:2
+after that also update or create new file settings.xml in .m2 directory 
+![image](https://github.com/user-attachments/assets/6676df14-c060-44fd-a9b0-da07faddd681)
+settings.xml file as follow
+
+```bash
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 
+                              https://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <!-- 
+        Global Maven settings file.
+        Typically located at ~/.m2/settings.xml
+    -->
+
+    <!-- Servers Configuration -->
+    <servers>
+        <!-- JFrog Artifactory Release Repository -->
+        <server>
+            <id>central</id>
+            <username>admin</username>
+            <password>Admin123</password>
+        </server>
+
+        <!-- JFrog Artifactory Snapshot Repository -->
+        <server>
+            <id>snapshots</id>
+            <username>admin</username>
+            <password>Admin123</password>
+        </server>
+    </servers>
+
+    <!-- Optional: Profiles Configuration -->
+    <!-- 
+        Profiles can be used to activate certain settings under specific conditions.
+        Uncomment and configure if needed.
+    -->
+    <!--
+    <profiles>
+        <profile>
+            <id>artifactory</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <name>Artifactory Releases</name>
+                    <url>http://172.18.166.193:8081/artifactory/maven-cloverInfotech-local</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+                <repository>
+                    <id>snapshots</id>
+                    <name>Artifactory Snapshots</name>
+                    <url>http://172.18.166.193:8081/artifactory/maven-cloverInfotech-local</url>
+                    <releases>
+                        <enabled>false</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>artifactory</activeProfile>
+    </activeProfiles>
+    -->
+
+    <!-- Optional: Mirrors Configuration -->
+    <!-- 
+        Mirrors can redirect repository requests to a different repository.
+        Uncomment and configure if you want all repository requests to go through Artifactory.
+    -->
+    <!--
+    <mirrors>
+        <mirror>
+            <id>artifactory</id>
+            <mirrorOf>*</mirrorOf>
+            <url>http://172.18.166.193:8081/artifactory/maven-cloverInfotech-local</url>
+        </mirror>
+    </mirrors>
+    -->
+
+    <!-- Optional: Proxies Configuration -->
+    <!-- 
+        Configure proxies if your network requires it.
+        Uncomment and configure if needed.
+    -->
+    <!--
+    <proxies>
+        <proxy>
+            <id>example-proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>proxy.example.com</host>
+            <port>8080</port>
+            <username>proxyuser</username>
+            <password>proxypass</password>
+            <nonProxyHosts>localhost|127.0.0.1</nonProxyHosts>
+        </proxy>
+    </proxies>
+    -->
+
+</settings>
+
+```
+# step

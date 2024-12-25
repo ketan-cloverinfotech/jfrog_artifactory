@@ -1,5 +1,13 @@
 ## how to upload artifacts to jfrog artifactory
 
+# Step 1: Create local,remote and virtual repo
+![image](https://github.com/user-attachments/assets/5e3fdef2-8aec-44d0-ad50-6fdd47239012)
+
+# Step 2 update pom.xml file
+**first copy code from set me up**
+![image](https://github.com/user-attachments/assets/bd3cc1af-81d8-44ed-8069-3724e0f95adb)
+# Step 3: Paste code in pom.xml
+
 my pom.xml as follow
 ```bash
 

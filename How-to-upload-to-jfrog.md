@@ -164,7 +164,7 @@ my pom.xml as follow
 
 ```
 
-# step:2
+# step 4: Update settings.xml
 after that also update or create new file settings.xml in .m2 directory 
 ![image](https://github.com/user-attachments/assets/6676df14-c060-44fd-a9b0-da07faddd681)
 settings.xml file as follow
@@ -277,4 +277,4 @@ settings.xml file as follow
 </settings>
 
 ```
-# step
+

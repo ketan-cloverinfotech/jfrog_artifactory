@@ -1,4 +1,4 @@
-###how to upload artifacts to jfrog artifactory
+## how to upload artifacts to jfrog artifactory
 
 my pom.xml as follow
 ```bash

@@ -1,4 +1,10 @@
 # What is JFrog Connect?
+
+JFrog Connect (formerly Upswift.io) is a platform designed to manage Internet of Things (IoT) devices remotely. It focuses on making software updates (firmware, applications, configurations) and real-time monitoring easy and secure for connected devices. Below is a breakdown of what it is, why it’s useful, and some simple examples of how it can be applied in real-world scenarios.
+
+
+
+
 **1.Remote Device Management:**
 
 You can control and monitor all your IoT devices from one dashboard, whether they are Raspberry Pis, small embedded Linux boards, or other hardware.

@@ -19,3 +19,6 @@ Here’s a simple breakdown:
 - You define a rule: “Any library with a critical security vulnerability is blocked.”
 - If a developer tries to pull a bad library, JFrog rejects it.
 - Only safe, approved versions can enter your environment, reducing the chance of security breaches.
+
+![Screenshot 2024-12-26 113235](https://github.com/user-attachments/assets/c2fd2557-befd-49f6-ac8e-45dff001563e)
+

@@ -51,3 +51,4 @@ JFrog Insight is a tool that helps you monitor and analyze the health and perfor
     3.  Helps you spot slow-downs as soon as they start, so you can fix them.
 
 * * *
+![Screenshot 2024-12-26 114013](https://github.com/user-attachments/assets/21544121-5856-449b-b59a-649ee260b604)

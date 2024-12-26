@@ -24,6 +24,8 @@ A remote data center needs those artifacts but you want local, fast access (less
 A JFrog Edge Node in that remote data center can store just the needed Release Bundles.
 Example:
 Your main Artifactory is in New York. You have an Edge Node in Singapore for your local team. When you distribute a new microservice version, the release bundle is replicated to the Singapore Edge Node, so your Singapore team can quickly deploy from a local copy.
+
+
 **2. On-Premises Servers / Data Centers**
 What They Are: Traditional self-hosted environments, typically inside a company’s own infrastructure.
 **Use Case:**
@@ -31,6 +33,9 @@ Some organizations have strict security or compliance rules that require hosting
 JFrog Distribution can push the approved artifacts from your “central” Artifactory to these internal servers.
 Example:
 You have an on-prem datacenter that runs your production environment. You distribute the final Docker images or Java binaries to that datacenter for deployment.
+
+
+
 **3. Public Cloud Environments (AWS, Azure, GCP)**
 What They Are: Virtual servers, containers, or services running on public cloud platforms.
 **Use Case:**

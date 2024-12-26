@@ -21,6 +21,7 @@ Docker images need to be tagged to match the JFrog Docker registry structure. Fo
 ```bash
 docker tag <local-image>:<tag> trialmjjh4j.jfrog.io/docker-local/<image-name>:<tag>
 ```
+**Note:** _docker-local_ is jfrog repository
 
 **Example:**
 ```bash

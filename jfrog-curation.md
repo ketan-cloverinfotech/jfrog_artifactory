@@ -11,7 +11,10 @@ Here’s a simple breakdown:
 **3.Central Control:** All artifacts (libraries, Docker images, etc.) in your JFrog repositories can be “curated” so that only safe versions are available to developers.
 ## Example in Everyday Terms
 **Scenario:** Your team uses hundreds of open-source libraries. You want to ensure no one uses a library with known security holes.
+
+
 **Without Curation:** A developer might unknowingly download a vulnerable version, causing security risks.
+
 **With JFrog Curation:**
 - You define a rule: “Any library with a critical security vulnerability is blocked.”
 - If a developer tries to pull a bad library, JFrog rejects it.

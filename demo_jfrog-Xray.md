@@ -10,4 +10,9 @@ Xray is a powerful tool for scanning and analyzing your software components to e
 ## Step 3: X-rays : scanned list 
 ![image](https://github.com/user-attachments/assets/adbf2855-d7b5-4ee5-9991-8b47f48432b3)
 
+## Step 4: Export the report
+![image](https://github.com/user-attachments/assets/e36e6aba-a429-45d0-83b0-77d25d4c8b36)
+
+
+
 

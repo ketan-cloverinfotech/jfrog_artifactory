@@ -1,0 +1,20 @@
+#jf config add
+#Enter a unique server identifier: my-artifactory
+#JFrog Platform URL: http://192.168.164.128:8082/
+#JFrog Artifactory URL: http://192.168.164.128:8082/artifactory/
+JFrog Artifactory URL: http://192.168.164.128:8082/artifactory/
+JFrog username: admin
+JFrog password or Reference Token:
+Your JFrog URL uses an insecure HTTP connection, instead of HTTPS. Are you sure you want to continue? (y/n) [n]? Y
+ketan@master:~$ jf config show
+Server ID:                      my-artifactory
+JFrog Platform URL:             http://192.168.164.128:8082/
+Artifactory URL:                http://192.168.164.128:8082/artifactory/
+Distribution URL:               http://192.168.164.128:8082/distribution/
+Xray URL:                       http://192.168.164.128:8082/xray/
+Mission Control URL:            http://192.168.164.128:8082/mc/
+Pipelines URL:                  http://192.168.164.128:8082/pipelines/
+User:                           admin
+Password:                       ***
+Default:                        true
+
